@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Lei - Cybersecurity</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    #header {
+        background-color: #2e4053;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    #content {
+        padding: 20px;
+    }
+    .section {
+        margin-bottom: 20px;
+    }
+    .section h2 {
+        color: #2e4053;
+        border-bottom: 1px solid #2e4053;
+        padding-bottom: 10px;
+    }
+    .section p {
+        line-height: 1.5;
+    }
+    .footer {
+        background-color: #2e4053;
+        color: #fff;
+        padding: 10px 20px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+    <div id="header">
+        <h1>Política de Lei - Cybersecurity</h1>
+    </div>
+
+    <div id="content">
+        <div class="section">
+            <h2>Leis Aplicáveis</h2>
+            <p>O site de Cybersecurity está sujeito às seguintes leis e regulamentos:</p>
+            <ul>
+                <li>Lei de Proteção de Dados Pessoais</li>
+                <li>Lei de Crimes Cibernéticos</li>
+                <li>Lei de Propriedade Intelectual</li>
+                <li>Leis de Privacidade e Segurança da Informação</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Responsabilidades do Usuário</h2>
+            <p>Os usuários deste site concordam em cumprir todas as leis e regulamentos aplicáveis, incluindo, mas não se limitando a:</p>
+            <ul>
+                <li>Não realizar atividades de hacking, invasão, ou qualquer outra atividade ilegal ou maliciosa.</li>
+                <li>Não violar os direitos de propriedade intelectual de terceiros.</li>
+                <li>Não realizar phishing, spam ou qualquer atividade que viole a privacidade ou segurança de terceiros.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Penalidades</h2>
+            <p>O não cumprimento das leis e regulamentos mencionados pode resultar em consequências legais, incluindo, mas não se limitando a:</p>
+            <ul>
+                <li>Multa financeira</li>
+                <li>Responsabilidade criminal</li>
+                <li>Responsabilidade civil</li>
+                <li>Proibição de acesso ao site</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Este site é protegido por medidas de segurança rigorosas. Qualquer tentativa de invasão ou violação será tratada com seriedade e pode resultar em consequências legais.</p>
+    </div>
+</body>
+</html>
