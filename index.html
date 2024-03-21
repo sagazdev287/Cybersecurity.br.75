@@ -69,15 +69,22 @@
         </div><br><br>
         <p>&copy; 2024 Site criado por Sagaz_Felipe (programador).Todos os direitos reservados.</p>
 
-        <!-- Adicione mais serviços conforme necessário -->
+      <div id="privacy-policy">
+        <p>Este site utiliza cookies para garantir a melhor experiência ao usuário. Ao continuar navegando, você concorda com nossa <a href="#" target="_blank" rel="noopener">Política de Privacidade</a>.</p>
+        <button onclick="acceptPrivacyPolicy()">Aceitar</button>
     </div>
-        <!-- Adicione mais membros da equipe conforme necessário -->
-    </section>
-    <!-- Notificação de Política de Privacidade -->
-    <div id="privacy-notification" class="privacy-notification">
-        Ao usar este site, você concorda com nossa <a href="politica.html">Política de Privacidade</a>.
-        <button onclick="closePrivacyNotification()">Eu usuario deste dispositivo visitante neste site concordo com esta politica-de-privacidade!</button>
-    </div>
+
+    <script>
+        function acceptPrivacyPolicy() {
+            // Aqui você pode adicionar o código para armazenar a preferência do usuário,
+            // como por exemplo, configurar um cookie para lembrar a aceitação da política de privacidade.
+            // Exemplo de como definir um cookie com a validade de 30 dias:
+            // document.cookie = "privacy_policy_accepted=true; expires=" + new Date(new Date().getTime() + 30 * 24 * 60 * 60 * 1000).toUTCString() + "; path=/";
+
+            // Neste exemplo, apenas ocultamos a notificação de política de privacidade.
+            document.getElementById("privacy-policy").style.display = "none";
+        }
+    </script>
 
     <script src="scripts.js"></script>
 </html>
