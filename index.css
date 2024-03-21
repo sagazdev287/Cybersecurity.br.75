@@ -31,35 +31,6 @@ section {
     padding: 20px;
     margin: 20px 0;
 }
-.alert-cookies {
-    background-color:red;
-    color:blue;
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    z-index: 9999;
-}
-
-.alert-cookies a {
-    color:blue;
-    text-decoration: underline;
-}
-
-.btn-aceitar {
-    background-color:green; /* Verde */
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-left: 10px;
-    cursor: pointer;
-}
 
 .privacy-notification {
     background-color: lime;
