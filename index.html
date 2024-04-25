@@ -1,44 +1,93 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Error 503...</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: whitesmoke;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-
-    .maintenance-message {
-      text-align: center;
-    }
-
-    h1 {
-      color: #333;
-    }
-
-    p {
-      color: #666;
-    }
-
-    .error-image {
-      max-width: 100%;
-      height: auto;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Connection</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 </head>
 <body>
-  <div class="maintenance-message">
-    <img src="https://blog.innovahost.com.br/wp-content/uploads/erro-503.jpg" alt="Imagem de erro" class="error-image">
-    <h1>Site em Manutenção...</h1>
-    <p>Estamos trabalhando para melhorar sua experiência. Por favor, volte mais tarde.</p>
-  </div>
+
+    </form>
+
+    <header>
+        <h1>Cyber Connection</h1>
+    </header>
+    <nav>
+        <a href="#sobrenós">Sobre Nós</a>
+        <a href="#services">Serviços</a>
+        <a href="dicas.html">Dicas de seguranças</a>
+        <a href="#contact">Falar com programador</a>
+        <a href="politica.html">Politica de Lei</a>
+    </nav>
+    <section id="about">
+        <h2>Sobre nós</h2>
+        <p>Bem-vindo à Cyber Connection, sua parceira confiável em soluções de cibersegurança avançadas e inovadoras. Fundada em 2021, nossa empresa se dedica a proteger organizações e indivíduos contra ameaças cibernéticas em constante evolução.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Nossa Missão</h2>
+        <ul>
+            <li>Na Cyber Connection, nossa missão é simples: fornecer soluções de segurança cibernética de classe mundial que capacitam nossos clientes a enfrentar os desafios digitais de hoje e do futuro. Estamos comprometidos em proteger ativos críticos, preservar a privacidade e promover a confiança na era digital.</li>
+        </ul>
+        <h2>Nosso Compromisso</h2>
+        <ul>
+            <li>Somos apaixonados pela segurança cibernética e dedicados a permanecer na vanguarda da inovação e excelência técnica. Nossa equipe de especialistas altamente qualificados e experientes trabalha incansavelmente para desenvolver e implementar soluções personalizadas que atendam às necessidades únicas de cada cliente.</li>
+        </ul>
+        <h2>O Que nos diferencia</h2>
+        <ul>
+            <li>Experiência e Expertise: Nossa equipe é composta por especialistas líderes do setor, com ampla experiência em uma variedade de disciplinas de segurança cibernética.</li>
+            <li>Abordagem Holística: Acreditamos em uma abordagem holística para a segurança cibernética, combinando tecnologia avançada, práticas recomendadas e conscientização do usuário para proteger os ativos digitais de nossos clientes.</li>
+            <li>Inovação Contínua: Estamos constantemente buscando novas e melhores maneiras de proteger nossos clientes em um cenário de ameaças em rápida evolução.</li>
+        </ul>
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li>Consultoria em Segurança Cibernética</li>
+            <li>Avaliação de Riscos e Vulnerabilidades</li>
+            <li>Treinamento e Conscientização em Segurança</li>
+            <li>Testes de Invasão</li>
+            <li>Monitoramento de Segurança</li>
+            <li>Resposta a Incidentes de Segurança</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para obter mais informações sobre nossos serviços.</p>
+        <p>Email: cyberbr75@gmail.com</p>
+    </section>
+        </div>
+        <!-- Adicione mais serviços conforme necessário -->
+    </div>
+    <section class="team">
+        <h2>Nossa equipe</h2>
+        <div class="membros">
+            <h3>Henrique Feltran (CEO)</h3>
+            <h3>Lorenzo Pacella (GERENTE)</h3>
+            <h3>Sagaz_Felipe (Programador / Diretor da Segurança)</h3> 
+        
+            <a href="acesso.html" class="animated-button">Sou Programador</a>
+        </div><br><br>
+        <p>&copy; 2024 Site criado por Sagaz_Felipe (programador).Todos os direitos reservados.</p>
+
+      <div id="privacy-policy">
+        <p>Este site utiliza cookies e outras tecnologias similares para melhorar a sua experiência. Ao continuar navegando, você concorda com nossa <a href="politica.html" target="_blank" rel="noopener">Política de Privacidade</a>.</p>
+        <button onclick="acceptPrivacyPolicy()">Aceitar</button>
+    </div>
+
+    <script>
+        function acceptPrivacyPolicy() {
+            // Aqui você pode adicionar o código para armazenar a preferência do usuário,
+            // como por exemplo, configurar um cookie para lembrar a aceitação da política de privacidade.
+            // Exemplo de como definir um cookie com a validade de 30 dias:
+            // document.cookie = "privacy_policy_accepted=true; expires=" + new Date(new Date().getTime() + 30 * 24 * 60 * 60 * 1000).toUTCString() + "; path=/";
+
+            // Neste exemplo, apenas ocultamos a notificação de política de privacidade.
+            document.getElementById("privacy-policy").style.display = "none";
+        }
+    </script>
+
+    <script src="sc"></script>"
+</html>
 </body>
 </html>
