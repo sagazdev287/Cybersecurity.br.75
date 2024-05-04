@@ -1,1 +1,1 @@
-alert("Site monitorado 48H");
+console.log("Site monitorado 48H");
