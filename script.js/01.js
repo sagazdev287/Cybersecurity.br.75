@@ -1,0 +1,1 @@
+alert('ATENÇÃO Site monitorado 48H!');
