@@ -1,1 +1,1 @@
-alert('ATENÇÃO Site monitorado 48H!');
+alert("Site monitorado 48H");
