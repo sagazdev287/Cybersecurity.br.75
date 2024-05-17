@@ -37,3 +37,11 @@ window.onload = function() {
         cookieAlert.parentNode.removeChild(cookieAlert);
     }
 };
+
+
+
+
+
+
+
+setInterval(() => { let rgb = "rgb(" + Math.ceil(Math.random() * 255) + ", " + Math.ceil(Math.random() * 255) + ", " + Math.ceil(Math.random() * 255) +")"; document.querySelector("nav").style.backgroundColor = rgb }, 1000)
